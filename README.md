@@ -31,7 +31,6 @@ This project is a simple Crypto Trading App built using **React.js** and **TypeS
 - **Zustand** – For managing authentication state.
 - **Axios** – For making API requests.
 - **SCSS/TailwindCSS** – For styling the UI.
-- **React Hook Form/Formik** – For handling form inputs.
 
 ## Installation & Setup
 ### 📌 Prerequisites
@@ -58,14 +57,13 @@ This project is a simple Crypto Trading App built using **React.js** and **TypeS
 │── pages/              # Home and Trade pages
 │── store/              # Global state management (Zustand)
 │── styles/             # SCSS styles
-│── router.tsx          # Handles app navigation
 │── App.tsx             # Main component
 │── main.tsx            # Entry point
 ```
 
 ## Challenges & Solutions
 ### 🔹 Handling Authentication
-- Used **localStorage** to persist user session.
+- Used **Zustand** to persist user session.
 - Implemented a simple **mock login system**.
 
 ### 🔹 Real-time Crypto Conversion
@@ -76,7 +74,4 @@ This project is a simple Crypto Trading App built using **React.js** and **TypeS
 - Created **custom reusable UI components** (Button, Input, Dropdown).
 - Used **SCSS** for styling while ensuring responsiveness.
 
-
-## Contact
-For any queries, feel free to reach out:
 
